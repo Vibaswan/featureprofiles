@@ -79,7 +79,7 @@ message GNMIService {
 
   // The method that is covered within the gNMI protocol.
   optional Method method_name = 2;
-  
+
   // TODO(robjs): for some RPCs, like Subscribe, we may want
   // further description of modes (e.g., POLL, STREAM, ONCE).
 }
